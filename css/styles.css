@@ -33,9 +33,6 @@ header{
     font-size: 20px;
 }
 
-ul{
-    list-style-type:none;
-}
 
 .fondo-imagen {
     background-color:beige;
@@ -57,17 +54,11 @@ ul{
     justify-content: center;
     gap: 20px;
     background-color: beige;
-    
+    display: inline;
     width: 600px;
 }
 
 .carousel-item img {
     height: 120vh;
-}
-
-@media (min-width: 500px) {
-    .carousel-item img {
-        height: 100vh;
-    }
 }
 
